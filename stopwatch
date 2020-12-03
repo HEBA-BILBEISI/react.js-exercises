@@ -1,0 +1,48 @@
+class StopWatch {
+    constructor(hour, mins, sec) {
+        this.hour = hour;
+        this.mins = mins;
+        this.sec = sec;
+    }
+}
+NowTime = new StopWatch(00, 00, 00);
+
+function lab() {
+    NowTime.hour++;
+    NowTime.mins++;
+    
+}
+
+
+
+
+
+// index 
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwach</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<h1> In Time </h1>
+
+
+    
+
+<script src="script.js"></script>
+</body>
+</html>
